@@ -1,1 +1,1 @@
-enum product { lighting, camera, alarm, power, };
+enum category { lighting, camera, alarm, power, network, control, accessControl};
