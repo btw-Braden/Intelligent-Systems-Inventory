@@ -6,4 +6,3 @@ var quantity = 0;
 
 const product = {category, model, serial, quantity };
 
-Product product = new Prouct{};
