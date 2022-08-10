@@ -1,3 +1,9 @@
+import category from extra.ts
+
 var model = "";
 var serial = "";
-var quantity = 0;
+var quantity = 0; 
+
+const product = {category, model, serial, quantity };
+
+Product product = new Prouct{};
