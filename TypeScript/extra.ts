@@ -1,0 +1,1 @@
+enum product { lighting, camera, alarm, power, };
