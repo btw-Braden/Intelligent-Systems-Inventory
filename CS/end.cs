@@ -39,7 +39,7 @@ public class Program
 
 
 
-    //Runs this mehtod when user wants to add a product to the repository
+    //Runs this method when user wants to add a product to the repository
     //Defines product here
     private void CreateProduct()
     {
@@ -74,7 +74,7 @@ public class Program
 
 
 
-    //Runs this mehtod when user wants to view a product in the repository by model#
+    //Runs this method when user wants to view a product in the repository by model#
     private List ViewProductByModel(string model)
     {
         List modelList = new List();
@@ -87,7 +87,7 @@ public class Program
         }
         return modelList;
     }
-    //Runs this mehtod when user wants to view a product in the repository by serial#
+    //Runs this method when user wants to view a product in the repository by serial#
     private Object ViewProductBySerial(string serial)
     {
         foreach (Object item in Products)
@@ -99,7 +99,7 @@ public class Program
         }
         else return null;
     }
-    //Runs this mehtod when user wants to view a product in the repository by manufacturer
+    //Runs this method when user wants to view a product in the repository by manufacturer
     private List ViewProductByManufacturer(string manu)
     {
        List modelList = new List();
@@ -114,14 +114,14 @@ public class Program
     }
 
 
-    //Runs this mehtod when user wants to view all products in the repository
+    //Runs this method when user wants to view all products in the repository
     private List ViewAllProducts(List products)
     {
         //View(products);
     }
 
 
-    //Runs this mehtod when user wants to edit a product in the repository
+    //Runs this method when user wants to edit a product in the repository
     private Product EditProduct(string serial)
     {
         Product newProduct = new Product
@@ -150,7 +150,7 @@ public class Program
 
 
 
-    //Runs this mehtod when user wants to delete a product from the repository
+    //Runs this method when user wants to delete a product from the repository
     private void DeleteProduct(string serial)
     {
         Products.Remove(ViewProductBySerial(string serial));
